@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --clr-bg-primary: hsl(150, 77.27%, 56.86%);
+  --clr-bg-secondary: hsl(156, 23.81%, 95.88%);
+  --fs-normal: 16px;
+  --fw-normal: 400;
+  --ff-primary: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--clr-bg-primary);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-normal);
+  font-weight: var(--fw-normal);
+  padding: 30px;
+}
+
+input[type="email"] {
+  border: 2px solid red;
+}
+
+button {
+  padding: 8px;
+}
+button[data-role="primary"] {
+  border: 2px solid black;
+}
+
+[data-status="error"] {
+  color: red;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: var(--clr-bg-primary);
+}
+
+tbody tr:nth-child(2n + 1) {
+  background-color: var(--clr-bg-secondary);
+}
+
+ul > li:nth-child(2n) {
+  background-color: blueviolet;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+post > h2 ~ p::first-letter {
+  text-transform: uppercase;
+}
