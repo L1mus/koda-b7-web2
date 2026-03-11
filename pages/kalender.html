@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalender</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        /* padding: 100px; */
+        font-weight: 700;
+      }
+      h1 {
+        text-transform: uppercase;
+        color: crimson;
+      }
+
+      .main-container {
+        border: 10px double yellow;
+        width: max-content;
+        height: auto;
+        padding: 25px;
+        /* margin: 20px; */
+        background-color: blueviolet;
+      }
+
+      .container-column {
+        border-bottom: 2px solid black;
+        padding: 20px;
+      }
+      .container-column > div {
+        display: inline-block;
+        width: 200px;
+        height: auto;
+        background-color: aqua;
+        padding: 1rem;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 4px;
+      }
+      .container-row > div {
+        display: inline-block;
+        width: 205px;
+        height: auto;
+        background-color: transparent;
+        padding: 1rem;
+        text-align: center;
+        /* border: 1px solid black; */
+        border-radius: 4px;
+        margin-top: 10px;
+      }
+      .month {
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .sunday {
+        color: red;
+      }
+      div {
+        font-size: 1.2em;
+        font-family:
+          "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>kalender masehi</h1>
+    <div class="main-container">
+      <h2 class="month">January 2026</h2>
+      <div class="container-column">
+        <div>monday</div>
+        <div>tuesday</div>
+        <div>wednesday</div>
+        <div>thursday</div>
+        <div>friday</div>
+        <div>saturday</div>
+        <div class="sunday">sunday</div>
+      </div>
+      <div class="container-row">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div class="sunday">7</div>
+      </div>
+      <div class="container-row">
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div class="sunday">14</div>
+      </div>
+      <div class="container-row">
+        <div>15</div>
+        <div>16</div>
+        <div>17</div>
+        <div>18</div>
+        <div>19</div>
+        <div>20</div>
+        <div class="sunday">21</div>
+      </div>
+      <div class="container-row">
+        <div>22</div>
+        <div>23</div>
+        <div>24</div>
+        <div>25</div>
+        <div>26</div>
+        <div>27</div>
+        <div class="sunday">28</div>
+      </div>
+      <div class="container-row">
+        <div>29</div>
+        <div>30</div>
+      </div>
+    </div>
+  </body>
+</html>
