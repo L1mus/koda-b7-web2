@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Perokok</title>
+  </head>
+  <body>
+    <h1>FORM SURVEY PEROKOK</h1>
+    <form action="">
+      <div>
+        <label for="name"><b>Nama</b></label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <label for="age"><b>Umur</b></label>
+        <input type="number" name="age" id="age" />
+      </div>
+      <div>
+        <label><b>Jenis Kelamin</b></label>
+        <input type="radio" name="gender" id="L" />
+        <label for="L">Laki-Laki</label>
+        <input type="radio" name="gender" id="P" />
+        <label for="P">Perempuan</label>
+      </div>
+      <div>
+        <label for="smoking-dude"><b>Apakah anda seorang Perokok ?</b></label>
+        <br />
+        <select name="smoker" id="smoking-dude">
+          <option value="false" disabled selected>Pilih Dengan JUJUR!</option>
+          <option value="yes">YA</option>
+          <option value="no">TIDAK</option>
+        </select>
+      </div>
+      <div>
+        <label><b>Brand rokok yang di gunakan ?</b></label>
+        <br />
+        <input type="checkbox" /> <label for="djarum-super">Djarum Super</label>
+        <input type="checkbox" />
+        <label for="dji-sam-soe-kretek">Dji Sam Soe Kretek</label>
+        <input type="checkbox" /> <label for="malboro">Malboro</label>
+        <input type="checkbox" />
+        <label for="gudang-garam-filter">Gudang Garam Filter</label>
+        <input type="checkbox" />
+        <label for="djarum-coklat">Djarum Coklat</label>
+        <input type="checkbox" />
+        <label for="sampoerna-kretek">Sampoerna Kretek</label>
+        <input type="checkbox" />
+        <label for="esse-berry-pop">Esse Berry Pop</label>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
